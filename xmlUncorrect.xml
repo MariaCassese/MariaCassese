@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<choice>
+    <sic> testo con <cor> errore </sic>
+    testo corretto </cor>
+</choice>
+
+<!-- parser error : Opening and ending tag mismatch: cor line 4 and sic
+    <sic> testo con <cor> errore </sic>
+                                       ^
+xmlUncorrect.xml:5: parser error : Opening and ending tag mismatch: sic line 4 and cor
+    testo corretto </cor>
+-->
