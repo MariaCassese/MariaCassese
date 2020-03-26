@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    studente: Maria Cassese
+    matricola: 607577
+    corso: codifica di testi 19-20
+-->
+<root>
+    <content> 
+        casa;
+        c&#97;sa
+        c&#x61;sa
+        <character-data>
+            <![CDATA[
+                contenuto testuale; 
+                1<2;
+                &#97;
+                <
+            ]]>]
+        </character-data>
+        <htmlCode> 
+            <![CDATA[
+                 <h1>Capitolo Primo</h1>
+                 <h2>Sezione Seconda</h2>
+            ]]> 
+        </htmlCode>
+    </content>
+</root>
+
+<!--
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <content> 
+        casa;
+        casa
+        casa
+        <character-data>
+            <![CDATA[
+                contenuto testuale; 
+                1<2;
+                &#97;
+                <
+            ]]>]
+        </character-data>
+        <htmlCode> 
+            <![CDATA[
+                 <h1>Capitolo Primo</h1>
+                 <h2>Sezione Seconda</h2>
+            ]]> 
+        </htmlCode>
+    </content>
+</root>
+-->
