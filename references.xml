@@ -1,0 +1,19 @@
+<? xml version="1.0" encoding="UTF-8"?>
+<root>
+    <content> 
+        casa;
+        c&#97;sa
+        c&#x61;sa
+    </content>
+</root>
+
+<!-- 
+  <?xml version="1.0"?>
+<root>
+    <content> 
+        casa;
+        Casa
+        casa
+    </content>
+</root>  
+-->
