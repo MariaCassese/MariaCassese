@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="main.css"media="all" ?>
+<!-- 
+    studente: Maria Cassese
+    matricola: 607577
+    corso: codifica di testi 19-20
+-->
+
+<TEI xmlns="">
+
+    <tei:body xmlns:tei="http://www.tei-c.org/ns/1.0" >  
+        <tei:div> </tei:div>
+    </tei:body> 
+
+ </TEI>
+
+ 
+  
+
+
