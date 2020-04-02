@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="main.css"media="all" ?>
+<!DOCTYPE TEI SYSTEM "EsempioDTD.dtd">
+<!-- 
+    studente: Maria Cassese
+    matricola: 607577
+    corso: codifica di testi 19-20
+-->
+
+<TEI xmlns="">
+
+    <tei:header xmlns:tei="http://www.tei-c.org/ns/1.0" type = "intestazione" > 
+        Inserire titolo
+     </tei:header> 
+     <tei:facsimile  xmlns:tei="http://www.tei-c.org/ns/1.0" source="Wikipedia"> Inserire esempio </tei:facsimile> 
+     <tei:testo xmlns:tei="http://www.tei-c.org/ns/1.0" id="first"> Contenuto testuale
+         <seg> altro contenuto testuale </seg>
+     </tei:testo> 
+     <tei:testo xmlns:tei="http://www.tei-c.org/ns/1.0" id = "second" type="text"> Contenuto testuale
+         <seg> etc.  </seg>
+     </tei:testo> 
+
+ </TEI>
