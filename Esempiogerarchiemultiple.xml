@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+    studente: Maria Cassese
+    matricola: 607577
+    corso: codifica di testi 19-20
+-->
+<text>
+    <titolo> Gli affari del signor Giulio Cesare </titolo>
+    <libro n="1">
+    <pagina n="9">
+        <p> La strada che ci avevano indicato, stretta e piuttosto ripida, 
+        saliva a zig zag tra gli oliveti che, sostenuti dai bassi muretti di pietra, 
+        si alzavano a terrazzo dal lago. [...] 
+        </p>
+        <p>La villa era costruita in uno stile semplicissimo, molto diverso dagli 
+        orribili palazzi dei </pagina>
+    <pagina n="10"> nostri parvenus della capitale [...]</p>
+    </pagina>
+</text>
+<!-- esempiogerarchiemultiple.xml:16: parser error : expected '>'
+        orribili palazzi dei </pagina>
+                                ^
+esempiogerarchiemultiple.xml:17: parser error : Opening and ending tag mismatch: pagina line 17 and p
+    <pagina n="10"> nostri parvenus della capitale [...]</p>
+                                                            ^
+esempiogerarchiemultiple.xml:19: parser error : Opening and ending tag mismatch: libro line 9 and text
+</text>
+       ^
+esempiogerarchiemultiple.xml:19: parser error : Premature end of data in tag text line 7
+</text>
+-->
