@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+    studente: Maria Cassese
+    matricola: 607577
+    corso: codifica di testi 19-20
+-->
+<text>
+    <titolo> Gli affari del signor Giulio Cesare </titolo>  
+    <libro n="1">
+        <pagina n="9"/>
+        <p> La strada che ci avevano indicato, stretta e piuttosto ripida, 
+            saliva a zig zag tra gli oliveti che, sostenuti dai bassi muretti di pietra, 
+            si alzavano a terrazzo dal lago. [...] 
+        </p>
+        <p>   
+            La villa era costruita in uno stile semplicissimo, molto diverso dagli 
+            orribili palazzi dei <pagina n="10"/> nostri parvenus della capitale [...]
+        </p>
+    </libro>
+</text>
