@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="main.css"media="all" ?>
+<!DOCTYPE TEI [
+
+<!ELEMENT TEI (header, facsimile?, testo+)>
+<!ELEMENT header (#PCDATA)>
+<!ELEMENT facsimile (#PCDATA)>
+<!ELEMENT testo (#PCDATA|seg)* >
+<!ELEMENT seg (#PCDATA)>
+
+<!ATTLIST header type (CDATA) #FIXED "intestazione" >
+<!ATTLIST header lang (NMTOKEN) #IMPLIED>
+<!ATTLIST facsimile source (CDATA) #REQUIRED>
+<!ATTLIST facsimile ref (IDREFS) #IMPLIED>
+<!ATTLIST testo id (ID) #REQUIRED>
+<!ATTLIST testo type (CDATA) #IMPLIED>
+
+]>
+<!-- 
+    studente: Maria Cassese
+    matricola: 607577
+    corso: codifica di testi 19-20
+-->
+
+<TEI >
+
+    <header  type = "intestazione" > 
+        Inserire titolo
+     </header> 
+     <facsimile   source="Wikipedia"> Inserire esempio </facsimile> 
+     <testo id="first"> Contenuto testuale
+         <seg> altro contenuto testuale </seg>
+     </testo> 
+     <testo id = "second" type="text"> Contenuto testuale
+         <seg> etc.  </seg>
+     </testo> 
+
+ </TEI>
